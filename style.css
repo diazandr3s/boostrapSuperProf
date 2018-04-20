@@ -1,0 +1,77 @@
+.cabezera{
+    background-color: black;
+    position: fixed;
+    z-index: 1;
+}
+.logo{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 235px;    
+}
+.desplegable{
+    color: white;   
+}
+.listaPadre{
+    list-style: none;
+    
+}
+.dropdown{
+    list-style: none;
+    display: none;
+    
+}
+.listaPadre:hover .dropdown{
+    display: block;
+    position: absolute;
+    z-index: 1;
+    background: black;
+    width: 200px;
+    
+}
+.enlaceDrop{
+    color: white;
+}
+.listaPadre:hover .enlaceDrop{
+    
+}
+.dropdown:hover .cambio{
+     background-color: orange;
+}
+.logotransporte{
+    width: 200px;
+}
+.containerbanner{
+}
+.rowcolor{
+        background: #FF6A00;   
+}
+button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  outline: none;
+  color: black;
+  background-color: white;
+    border: 1px solid;
+}
+.icono{
+    height: 50px;
+    }
+.flecha{
+    height: 50px;
+}
+.seccion3{
+    background-image: url(imagenes/transporte-video.jpg);
+    color: white;
+}
+#listaSeccion3 { list-style-image: url("iconos/check-naranja.svg");
+    font-size:18px; 
+}
+.seccion5{
+    background-color: gray;
+}
+.agencias{
+    width: 100px;
+}
